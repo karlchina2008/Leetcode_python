@@ -13,3 +13,4 @@ class Solution(object):
                 board[i][j]='Y'
                 save+=((i+1,j),(i,j+1),(i-1,j),(i,j-1))# or save.append((i,j))
         board[:] = [['XO'[c == 'Y'] for c in row] for row in board]
+ 
