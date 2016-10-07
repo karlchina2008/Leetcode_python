@@ -45,6 +45,6 @@ class Solution(object):
         for i in range(m):
             for j in range(n):
                 if board[i][j]=='O':
-                    x,y=findroot(i,j)
+                    x,y=findroot(i,j) 
                     if 0<x<m-1 and 0<y<n-1:
                         board[i][j]='X'
